@@ -1,0 +1,27 @@
+h3 {
+	color: black;
+}
+#social {
+	clear: both;
+}
+
+#snapshot {
+	width:800px;
+	float:left;
+}
+
+#left {
+	float: left;
+	width: 280px;
+	background:#9c9;
+}
+
+#right {
+	float: right;
+	width: 500px;
+	background:#99c;
+}
+
+#interests ul {
+	list-style:none;
+}
