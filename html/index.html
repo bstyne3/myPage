@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Beau Styne - index</title>
-</head>
-<body>
-  <div id="tabs">
-    <a href="home.html">Link to Home</a>
-  </div>
-</body>
+  <head>
+    <title>Beau Styne - Home</title>
+    <link rel="stylesheet" type="text/css" href="../styles/base.css">
+    <script src="../scripts/jquery-2.1.3.min.js"></script>
+    <script src="../scripts/tabs.js"></script>
+  </head>
+  <body>
+    <div id="tabs"></div>
+    <!-- TODO: [body] Set server up to point index.html to home page -->
+
+    <!-- TODO: [body] Add styling for social -->
+    <div id="social">
+      <!-- TODO: [div-social] Use proper images -->
+      <img id="profpic" src="../images/tests.jpg" >
+      <!-- TODO: [div-social] Fix links to point to actual pages -->
+      <a target="_blank" href="http://www.google.com"><img id="google" src="../images/googlelogo.png"></a>
+      <a target="_blank" href="http://www.twitter.com"><img id="twitter" src="../images/twitterlogo.jpg"></a>
+      <a target="_blank" href="http://www.facebook.com"><img id="facebook" src="../images/facebooklogo.png"></a>
+      <a target="_blank" href="http://www.linkedin.com"><img id="linkedin" src="../images/lilogo.jpg"></a>
+      <!-- TODO: [div-social] Insert motto image here -->
+    </div>
+    <div id="snapshot">
+      <div id="left">
+        <!-- TODO: [body] Add styling for skills -->
+        <div id="skills">
+          <h3>Skills</h3>
+          <p>Java</p>
+          <p>C#</p>
+          <p>Databases</p>
+          <p>Web Services</p>
+          <p>HTML - CSS</p>
+          <p>JavaScript</p>
+          <a href="experience.html">Complete List of Skills and Experience</a>
+        </div>
+        <!-- TODO: [body] Add styling for timeline -->
+        <div id="timeline">
+          <h3>Timeline</h3>
+          <img id="timelinepic" src="../images/timeline.png">
+        </div>
+      </div>
+      <div id="right">
+        <!-- TODO: [body] Add styling for foexp -->
+        <div id="fields">
+          <h3>Fields</h3>
+          <img id="fieldspic" src="../images/fields.png">
+        </div>
+        <!-- TODO: [body] Add styling for education -->
+        <div id="education">
+          <h3>Education</h3>
+          <table id="univ">
+            <tr>
+              <th>Collegiate</th>
+              <th>Degree</th>
+              <th>GPA</th>
+            </tr>
+            <tr>
+              <td><a target="_blank" href="http://www.umhb.edu">UMHB</a></td>
+              <td>B.S. -  Computer Science</td>
+              <td>3.89/4</td>
+            </tr>
+          </table>
+          <table id="hs">
+            <tr>
+              <th>High School</th>
+              <th>GPA</th>
+              <th>Favorite Course</th>
+            </tr>
+            <tr>
+              <td><a target="_blank" href="http://www.fwc.org/">Fort Worth Christian</a></td>
+              <td>3.9/4</td>
+              <td>Networking</td>
+            </tr>
+          </table>
+        </div>
+        <!-- TODO: [body] Add styling for interests -->
+        <div id="interests">
+          <h3>Interests</h3>
+          <ul>
+            <li>Sports</li>
+            <li>Gaming</li>
+            <li>Outdoors</li>
+            <li>Technology</li>
+            <li>Movies</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </body>
 </html>
