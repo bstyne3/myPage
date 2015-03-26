@@ -1,0 +1,20 @@
+#hobbies {
+	background-color: lightblue;
+	width: 50%;
+}
+
+#sports {
+	color: green;
+	background-color: lightgreen;
+	margin-left: 2%;
+}
+#gaming {
+	color: yellow;
+	background-color: orange;
+	margin-left: 2%;
+}
+#movies {
+	color: lightblue;
+	background-color: blue;
+	margin-left: 2%;
+}
