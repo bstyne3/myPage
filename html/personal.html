@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Beau Styne - Experience</title>
+  <title>Beau Styne - Personal</title>
   <link rel="stylesheet" type="text/css" href="../styles/base.css">
   <link rel="stylesheet" type="text/css" href="../styles/personal.css">
   <script src="../scripts/jquery-2.1.3.min.js"></script>
   <script src="../scripts/tabs.js"></script>
 </head>
 <body>
-  <div id="tabs"></div>
-  <div id="bio">
-  	Biography
-  	Timeline
-  	Etc.
-  </div>
-  <div id="hobbies">Hobbies
-  	<div id="sports">Sports</div>
-  	<div id="gaming">Gaming</div>
-  	<div id="movies">Movies</div>
-  </div>
-  <div id="twitter">Twitter Feed</div>
-  <div id=""></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div id="twitch">
-  	<!-- [twitch] Hiding Twitch information for the time being -->
-  	<iframe src="http://www.twitch.tv/bstyne3/embed" frameborder="0" scrolling="no" height="189" width="310" hidden="true"></iframe><a href="http://www.twitch.tv/bstyne3?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;"></a>
-  </div>
+  <header id="tabs"></header>
+	  <div id="bio">
+	  	<h3>About Me</h3>
+	  	<p>This is my bio section that will get filled in later.  I am not finished with this section yet.</p>
+	  </div>
+	  <div id="twitter">
+	  	<p>Twitter Page</p>
+	  	<a class="twitter-timeline" href="https://twitter.com/BStyne3" data-widget-id="582993814417121280">Tweets by @BStyne3</a>
+	  	<script>
+	  		!function(d,s,id) {
+	  			var js, fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location) ? 'http':'https';
+	  			if(!d.getElementById(id)) {
+	  				js=d.createElement(s);
+	  				js.id=id;
+	  				js.src=p+"://platform.twitter.com/widgets.js";
+	  				fjs.parentNode.insertBefore(js,fjs);
+	  			}
+	  		}
+	  		(document,"script","twitter-wjs");
+  		</script>
+	  </div>
+	  <div id="twitch">
+	  	<p>Twitch Channel</p>
+  		<iframe id="vid" src="http://www.twitch.tv/bstyne3/embed" frameborder="0" scrolling="no"></iframe>
+  		<a href="http://www.twitch.tv/bstyne3">Go to my channel</a>
+  		<p>Twitch Bio Here</p>
+  	  </div>
+  	  <div id="google">
+  	  	<p>Google Plus</p>
+  	  </div>
 </body>
 </html>

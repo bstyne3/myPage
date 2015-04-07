@@ -1,20 +1,61 @@
-#hobbies {
-	background-color: lightblue;
-	width: 50%;
+#bio {
+	background-color: red;
+	color: white;
+	clear: both;
+	margin: 0 auto;
 }
 
-#sports {
+#vid {
+	width: 100%;
+	height: 310px;
+}
+
+#twitter {
 	color: green;
 	background-color: lightgreen;
-	margin-left: 2%;
 }
-#gaming {
+
+#twitch {
 	color: yellow;
 	background-color: orange;
-	margin-left: 2%;
 }
-#movies {
+
+#google {
 	color: lightblue;
 	background-color: blue;
-	margin-left: 2%;
+}
+
+@media screen and (min-width:600px) {
+	#twitter {
+		width: 33%;
+		float: left;
+	}
+
+	#twitch {
+		width: 33%;
+		float: left;
+	}
+
+	#google {
+		width: 33%;
+		float: left;
+		clear: right;
+	}
+}
+@media screen and (max-width:599px) {
+
+	#twitter {
+		width: 100%;
+		clear: both;
+	}
+
+	#twitch {
+		width: 100%;
+		clear: both;
+	}
+
+	#google {
+		width: 100%;
+		clear: both;
+	}
 }

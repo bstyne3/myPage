@@ -23,22 +23,50 @@ h3 {
 }
 
 #snapshot {
-	width:800px;
+	width:100%;
+	clear:left;
 	float:left;
 }
 
 #left {
-	float: left;
-	width: 280px;
 	background:#9c9;
 }
 
 #right {
-	float: right;
-	width: 500px;
 	background:#99c;
 }
 
 #interests ul {
 	list-style:none;
+}
+
+progress {
+	background-color: #f3f3f3;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+}
+
+@media screen and (min-width:600px) {
+	#left {
+		clear: left;
+		float: left;
+		width: 33%;
+	}
+
+	#right {
+		float: left;
+		width: 33%;
+	}
+}
+@media screen and (max-width:599px) {
+	#left {
+		clear: both;
+		width: 100%;
+	}
+
+	#right {
+		clear: both;
+		width: 100%;
+	}
 }
