@@ -17,7 +17,7 @@ h3 {
 	background-color: lightblue;
 }
 
-#social {
+#heading {
 	padding-top:10px;
 	clear: both;
 }
@@ -26,6 +26,20 @@ h3 {
 	width:100%;
 	clear:left;
 	float:left;
+}
+
+#profpic {
+	background:#9cf;
+}
+
+#profpic img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#motto {
+	background:#99f;
 }
 
 #left {
@@ -48,6 +62,16 @@ progress {
 }
 
 @media screen and (min-width:600px) {
+	#profpic {
+		clear: left;
+		float: left;
+		width: 20%;
+	}
+
+	#motto {
+		float: left;
+		width: 46%;
+	}
 	#left {
 		clear: left;
 		float: left;
@@ -60,6 +84,15 @@ progress {
 	}
 }
 @media screen and (max-width:599px) {
+	#profpic {
+		clear: both;
+		width: 100%;
+	}
+
+	#motto {
+		clear: both;
+		width: 100%;
+	}
 	#left {
 		clear: both;
 		width: 100%;
